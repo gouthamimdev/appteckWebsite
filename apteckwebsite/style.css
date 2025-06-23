@@ -1,0 +1,437 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    max-width: 100%;
+    /* background-color: #0962B1; */
+    height: 55px;
+}
+
+.logo
+{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    height: 65px;
+    flex: 0;
+   
+}
+
+.nav-items
+{
+    flex: 1;
+    padding-left: 270px;
+   
+}
+
+
+.dropdown
+{
+    display: inline;
+    position: relative;
+    margin-right: 25px;
+}
+
+.dropbtn
+{
+    background-color: transparent; 
+    color: #0962B1; 
+    padding: 5px;
+    gap: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.dropbtn:hover
+{
+    color: #edaa1e;
+}
+
+.dropdown-menu
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 190px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    list-style: none;
+    border-radius: 5px;
+    top: 40px;
+    left: 0;
+    z-index: 100;
+}
+
+.dropdown-menu li
+{
+    padding: 3px 8px;
+    margin: 1px 0;
+    line-height: 1.4;
+}
+
+.dropdown-menu li a {
+    color: #0962B1; 
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.dropdown-menu li a:hover 
+{
+    color: #edaa1e;
+}
+
+/* .left-container
+{
+    width: 50%;
+    text-align: center;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.lcsbtn
+{
+    margin: 40px;
+    background-color: #edaa1e;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border:none;
+    color: white;
+    font-weight: bold;
+}
+
+.right-container
+{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+} */
+
+/* container body */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  /* background-color:#edaa1e; */
+  background: linear-gradient(to bottom, #edaa1e, #ffffff);
+  background-image: url("images/greybgimg.jpg");
+  background-size: cover;
+}
+
+.left-container
+{
+  text-align: left !important;
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: solid 2px #edaa1e;
+  border-radius: 15px;
+}
+
+.left-container p
+{
+  padding-left: 30px;
+  color: black;
+}
+
+.left-container,
+.right-container {
+  width: 48%;
+  box-sizing: border-box;
+}
+
+.left-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.right-container {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* left container enquire now button */
+.lcsbtn {
+  margin: 40px;
+  /* background-color: #edaa1e; */
+  background-color: #0962B1;
+  
+
+
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.lctext
+{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #0962B1;
+    margin-top: 20px;
+}
+
+/* .inquiryForm
+{
+   border: solid 2px;
+   height: 250px;
+   margin-top: 30px;
+   border-radius: 8px;
+   padding-top: 30px;
+   width: 300px;
+   margin-left: 40px;
+   align-items: flex-start;
+} */
+
+.Reach-Us
+{
+  padding-bottom: 20px;
+  color: #0962B1;
+}
+
+.inquiryForm {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px ;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 270px;
+  height: 400px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+.inquiryForm input,
+.inquiryForm select,
+.inquiryForm button {
+  width: 80%;
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.inquiryForm input:focus,
+.inquiryForm select:focus {
+  border-color: #edaa1e;
+  outline: none;
+  box-shadow: 0 0 4px rgba(237, 170, 30, 0.3);
+}
+
+/* right container submit button */
+#rcsmsg {
+  background-color: #0962B1;
+  /* background-color: #edaa1e; */
+
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#rcsmsg:hover {
+  background-color: #d3930b;
+}
+
+
+/* our partners */
+.text
+{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #edaa1e;
+   
+}
+
+.partners-wrapper
+{
+  background-color: #0962B1; 
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.partners
+{
+  display: flex;
+  gap: 20px;
+  animation: scroll 20s linear infinite;
+}
+
+.logo-card
+{
+    flex: 0 0 auto;
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-card img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+
+
+
+
+/* cards for course */
+/* h1 forIT cards */
+.it, .non-it
+{
+  margin: 30px;
+  text-align: center;
+  color: #edaa1e;
+
+}
+
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 20px;
+  
+}
+
+.card {
+  width: calc(20% - 6.4px); /* 100% / 5 cards - gap compensation */
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  padding: 4px;
+  text-align: center;
+  background-color: #ffffff;
+  /* height: auto; */
+  /* border-radius: 15px; */
+
+}
+
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #0962B1;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin: 4px 0;
+  /* background-size: cover; */
+  height: 150px;
+}
+
+.card-btn {
+  /* margin: 4px 0; */
+  font-size: 14px;
+  background-color: #0962B1;
+  border-radius: 4px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  color: #ffffff;
+  margin: 20px;
+}
+
+
+/* ai tools */
+
+
+.ai-tools {
+ background-image: url(images/greybgimg.jpg);
+}
+
+.ai-head
+{
+  padding-top: 30px;
+  text-align: center;
+  color: #edaa1e;
+  padding-bottom: 30px;
+}
+
+.ai-sub-head
+{
+  text-align: left;
+  color: #0962B1;
+  padding-left: 20px;
+}
+
+.ai-p
+{
+  text-align: left;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* AI tools video  */
+
+.video-wrapper {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px 20px;
+  border-radius: 10%;
+}
+
